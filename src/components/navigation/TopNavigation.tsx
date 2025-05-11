@@ -1,6 +1,7 @@
 import { Button, Container, Flex, Logo } from "@/common";
 import { RoutePaths } from "@/constants";
 import Link from "next/link";
+import React from "react";
 
 export default function TopNavigation() {
   return (
@@ -8,8 +9,8 @@ export default function TopNavigation() {
       <Flex justifyContent="between" alignItems="center">
         <Logo />
         <Flex gap="space-x-4">
-          <Link href={"#"}>About us</Link>
-          <Link href={"#"}>Features</Link>
+          <Link href="#">About us</Link>
+          <Link href="#">Features</Link>
         </Flex>
         <SocialButtons />
       </Flex>

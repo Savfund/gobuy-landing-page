@@ -1,3 +1,5 @@
+// Map main service routes to main service pages
+
 export const RoutePaths = {
   DEFAULT: "/",
   LOGIN: "/login",

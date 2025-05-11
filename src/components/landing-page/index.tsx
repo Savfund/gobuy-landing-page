@@ -5,9 +5,7 @@ import Marketing from "./marketing-notes/Marketing";
 export default function LandingPage() {
   return (
     <div>
-      <TopNavigation />
       <Marketing />
-      <Footer />
     </div>
   );
 }
