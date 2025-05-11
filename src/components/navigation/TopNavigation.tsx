@@ -1,13 +1,13 @@
-import { Button, Flex, Logo, Container } from "@/common";
-import Link from "next/link";
+import { Button, Container, Flex, Logo } from "@/common";
 import { RoutePaths } from "@/constants";
+import Link from "next/link";
 
 export default function TopNavigation() {
   return (
-    <Container padding={"px-5"}>
-      <Flex justifyContent={"between"} alignItems={"center"}>
+    <Container padding="px-5">
+      <Flex justifyContent="between" alignItems="center">
         <Logo />
-        <Flex gap={"space-x-4"}>
+        <Flex gap="space-x-4">
           <Link href={"#"}>About us</Link>
           <Link href={"#"}>Features</Link>
         </Flex>

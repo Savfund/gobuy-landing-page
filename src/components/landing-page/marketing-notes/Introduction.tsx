@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <Container padding={"px-10"} margin={"mt-14"}>
-      <Flex alignItems={"start"} justifyContent={"between"}>
-        <Container size={"w-2/5"}>
+    <Container padding="px-10" margin="mt-14">
+      <Flex alignItems="start" justifyContent="between">
+        <Container size="w-2/5">
           <div>
             <h1 className="text-[45px] text-eminence">
               The Easy Way To Use Your PI.

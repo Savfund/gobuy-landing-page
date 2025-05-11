@@ -1,19 +1,19 @@
-import { Container, Flex, Divider } from "@/common";
+import { Container, Divider, Flex } from "@/common";
 import { RoutePaths } from "@/constants";
-import Link from "next/link";
 import genUtils from "@/utils/gen";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <Container
-      padding={"p-20"}
-      background={"secondary"}
-      margin={"mt-20"}
+      padding="p-20"
+      background="secondary"
+      margin="mt-20"
       classname="text-gray-700"
     >
       <div>
-        <Container margin={"mb-10"}>
-          <Flex alignItems={"start"} classname={"justify-between"}>
+        <Container margin="mb-10">
+          <Flex alignItems="start" classname="justify-between">
             <div className="w-1/2">
               <h2 className="text-3xl font-[800] text-eminence mb-2">Gobuy</h2>
               <h3 className="text-[15px] tracking-[1px]">
@@ -45,10 +45,18 @@ export default function Footer() {
             classname={"text-[12px] underline"}
             gap={"space-x-3"}
           >
-            <Link href={RoutePaths.TERMS_OF_SERVICE} target="_blank" rel="noreferrer noopener">
+            <Link
+              href={RoutePaths.TERMS_OF_SERVICE}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Terms of Service
             </Link>
-            <Link href={RoutePaths.PRIVACY_POLICY} target="_blank" rel="noreferrer noopener">
+            <Link
+              href={RoutePaths.PRIVACY_POLICY}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Privacy Policy
             </Link>
           </Flex>

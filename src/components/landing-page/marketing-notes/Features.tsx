@@ -4,12 +4,12 @@ import { marketing } from "@/data/marketing";
 export default function Features() {
   const { features } = marketing;
   return (
-    <Container margin={"my-20 mx-10"}>
+    <Container margin="my-20 mx-10">
       <h1 className="text-eminence text-center text-4xl font-bold mb-10">
         Why Choose Us
       </h1>
 
-      <Flex gap={"space-x-10"}>
+      <Flex gap="space-x-10">
         {features.map((text, index) => {
           return (
             <Container
