@@ -2,10 +2,14 @@
 
 import Navigation from "@/components/navigation/Navigation";
 
-export default function MainLayout(props: { component: React.ReactNode }) {
+export default function MainLayout({
+  component,
+}: {
+  component: React.ReactNode;
+}) {
   return (
     <>
-      <Navigation>{props.component}</Navigation>
+      <Navigation>{component}</Navigation>
     </>
   );
 }
