@@ -1,7 +1,6 @@
-import { Button, Container, Flex, Logo } from "@/common";
-import { RoutePaths } from "@/constants";
+import { Container, Flex, Logo } from "@/common";
 import Link from "next/link";
-import React from "react";
+import SocialButtons from "./SocialButtons";
 
 export default function TopNavigation() {
   return (
@@ -17,20 +16,3 @@ export default function TopNavigation() {
     </Container>
   );
 }
-
-const SocialButtons = () => {
-  return (
-    <Flex gap="space-x-2">
-      <Button url={RoutePaths.LOGIN} className="capitalize" asLink>
-        login
-      </Button>
-      <Button
-        url={RoutePaths.REGISTER}
-        className="capitalize rounded-md px-4 text-md"
-        asLink
-      >
-        sign up
-      </Button>
-    </Flex>
-  );
-};

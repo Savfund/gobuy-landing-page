@@ -1,14 +1,11 @@
 "use client";
 
-import Footer from "@/components/landing-page/Footer";
-import TopNavigation from "@/components/navigation/TopNavigation";
+import Navigation from "@/components/navigation/Navigation";
 
-export default function MainLayout(props: { children: React.ReactNode }) {
+export default function MainLayout(props: { component: React.ReactNode }) {
   return (
     <>
-      <TopNavigation />
-      {props.children}
-      <Footer />
+      <Navigation>{props.component}</Navigation>
     </>
   );
 }
