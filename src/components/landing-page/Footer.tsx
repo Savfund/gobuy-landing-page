@@ -8,7 +8,7 @@ export default function Footer() {
     <Container
       padding="p-20"
       background="secondary"
-      margin="mt-20"
+      margin="mt-10"
       classname="text-gray-700"
     >
       <div>
@@ -35,15 +35,14 @@ export default function Footer() {
           </Flex>
         </Container>
         <Divider />
-        <Container margin={"mt-10"}>
-          <h2 className="text-center text-xl">
+        <Container margin="mt-8">
+          <h2 className="text-center text-md">
             &copy; {genUtils.getCurrentYear()} Gobuy. All rights reserved
           </h2>
           <Flex
-            justifyContent={"center"}
-            alignItems={"center"}
-            classname={"text-[12px] underline"}
-            gap={"space-x-3"}
+            alignItems="center"
+            classname="text-[12px] underline justify-center mt-4"
+            gap="space-x-3"
           >
             <Link
               href={RoutePaths.TERMS_OF_SERVICE}

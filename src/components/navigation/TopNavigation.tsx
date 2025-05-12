@@ -5,7 +5,7 @@ import SocialButtons from "./SocialButtons";
 export default function TopNavigation() {
   return (
     <Container padding="px-5">
-      <Flex justifyContent="between" alignItems="center">
+      <Flex justifyContent="between" alignItems="center" classname="items-center">
         <Logo />
         <Flex gap="space-x-4">
           <Link href="#">About us</Link>

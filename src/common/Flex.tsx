@@ -28,9 +28,9 @@ export default function Flex(props: FlexProps) {
         justifySelf && `justify-self-${justifySelf}`,
         alignContent && `content-${alignContent}`,
         alignSelf && `self-${alignSelf}`,
-        classname && classname,
-        { ...rest }
+        classname && classname
       )}`}
+      {...rest}
     >
       {children}
     </div>

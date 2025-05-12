@@ -1,11 +1,13 @@
-import TopNavigation from "../navigation/TopNavigation";
-import Footer from "./Footer";
-import Marketing from "./marketing-notes/Marketing";
+import Features from "./marketing-notes/Features";
+import Introduction from "./marketing-notes/Introduction";
+import SignUpFiller from "./marketing-notes/SignupFiller";
 
 export default function LandingPage() {
   return (
     <div>
-      <Marketing />
+      <Introduction />
+      <Features />
+      <SignUpFiller />
     </div>
   );
 }

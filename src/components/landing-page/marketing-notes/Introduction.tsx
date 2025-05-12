@@ -12,10 +12,10 @@ export default function Introduction() {
             <h1 className="text-[45px] text-eminence">
               The Easy Way To Use Your PI.
             </h1>
-            <h3 className="text-3xl mt-4">
+            <p className="text-xl mt-4">
               Don&apos;t let your crypto sit idle. Gobuy transforms it into the
               services you need.
-            </h3>
+            </p>
             <Button
               className="w-2/4 text-center mt-4 py-3 rounded-lg"
               url={RoutePaths.REGISTER}
