@@ -14,6 +14,10 @@ export default {
         ["grey-scale"]: "#aca9bb",
         link: "#008dff",
       },
+      screens: {
+        mobile: { max: "768px" },
+        desktop: { min: "1024px" },
+      },
     },
   },
   plugins: [],
