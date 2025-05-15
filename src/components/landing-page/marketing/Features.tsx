@@ -4,7 +4,7 @@ import { marketing } from "@/data/marketing";
 export default function Features() {
   const { features } = marketing;
   return (
-    <Container margin="my-20 mx-5 md:mx-10">
+    <Container margin="my-20 mx-10">
       <h1 className="text-eminence text-center text-2xl md:text-3xl font-bold mb-6 md:mb-10">
         Why Choose Us
       </h1>
@@ -14,8 +14,8 @@ export default function Features() {
           return (
             <Container
               key={index}
-              padding="p-10"
-              boxShadow="shadow-lg"
+              padding="p-8 md:p-10"
+              boxShadow="shadow-md mix-blend-color"
               margin="mb-5 md:mb-0"
               border="border-2 rounded-lg border-gray-100"
             >
