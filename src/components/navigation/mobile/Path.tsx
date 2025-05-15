@@ -10,9 +10,9 @@ interface PathProps {
 const Path = (props: PathProps) => (
   <motion.path
     fill="transparent"
-    strokeWidth="3"
-    stroke="hsl(0, 0%, 18%)"
-    strokeLinecap="round"
+    strokeWidth="2"
+    stroke="hsl(0, 0%, 10%)"
+    strokeLinecap="square"
     {...props}
   />
 );

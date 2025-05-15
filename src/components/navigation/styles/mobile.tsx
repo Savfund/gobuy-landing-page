@@ -3,11 +3,11 @@ export const container: React.CSSProperties = {
   display: "flex",
   justifyContent: "flex-start",
   alignItems: "stretch",
-  flex: 1,
+  flexGrow: 1,
   width: 500,
   maxWidth: "100%",
   height: 400,
-  backgroundColor: "var(--accent)",
+  backgroundColor: "blue",
   borderRadius: 20,
   overflow: "hidden",
 };
@@ -16,9 +16,10 @@ export const background: React.CSSProperties = {
   backgroundColor: "#f5f5f5",
   position: "absolute",
   top: 0,
-  left: 0,
+  right: 0,
   bottom: 0,
-  width: 300,
+  width: 250,
+  height: "100%",
 };
 
 export const listItem: React.CSSProperties = {
@@ -40,7 +41,7 @@ export const toggleContainer: React.CSSProperties = {
   cursor: "pointer",
   position: "absolute",
   top: 18,
-  left: 15,
+  right: 2,
   width: 50,
   height: 50,
   borderRadius: "50%",
@@ -51,7 +52,7 @@ export const iconPlaceholder: React.CSSProperties = {
   width: 40,
   height: 40,
   borderRadius: "50%",
-  flex: "40px 0",
+  flex: "0 0 40px",
   marginRight: 20,
 };
 
@@ -64,9 +65,10 @@ export const textPlaceholder: React.CSSProperties = {
 
 export const list: React.CSSProperties = {
   listStyle: "none",
-  padding: 25,
+  padding: "5px 25px",
   margin: 0,
   position: "absolute",
+  right: 0,
   top: 80,
   width: 230,
 };
@@ -76,23 +78,32 @@ export const nav: React.CSSProperties = {
 };
 
 export const sidebarVariants = {
-  open: (height = 1000) => ({
-    clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
-    transition: {
-      type: "spring",
-      stiffness: 20,
-      restDelta: 2,
+    open: () => ({
+        clipPath: `circle(150% at calc(100% - 40px) 40px)`,
+        transition: {
+            type: "spring",
+            stiffness: 20,
+            restDelta: 2,
+        },
+    }),
+    closed: {
+        clipPath: "circle(25px at calc(100% - 40px) 40px)",
+        transition: {
+            delay: 0.2,
+            type: "spring",
+            stiffness: 400,
+            damping: 40,
+        },
     },
-  }),
-  closed: {
-    clipPath: "circle(30px at 40px 40px)",
-    transition: {
-      delay: 0.2,
-      type: "spring",
-      stiffness: 400,
-      damping: 40,
-    },
-  },
+};
+
+export const fullScreenStyle: React.CSSProperties = {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
 };
 
 export const itemVariants = {

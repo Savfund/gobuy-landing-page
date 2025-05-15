@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <Container padding="px-10" margin="mt-14">
+    <Container padding="px-10" margin="mt-2 md:mt-14">
       <Flex
         alignItems="start"
         justifyContent="between"
