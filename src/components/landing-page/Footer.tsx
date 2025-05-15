@@ -15,11 +15,13 @@ export default function Footer() {
         <Container margin="mb-10">
           <Flex
             alignItems="start"
-            classname="md:justify-between flex-col md:flex-row"
+            classname="md:space-x-10 flex-col md:flex-row"
           >
-            <div className="w-1/2">
-              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">Gobuy</h2>
-              <h3 className="text-[14px] md:text-sm tracking-[1px]">
+            <div className="md:w-1/2">
+              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">
+                Gobuy
+              </h2>
+              <h3 className="text-[14px] md:text-sm tracking-[1px] text-grey-scale text-justify">
                 Join the Gobuy community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to
                 enhance your mobile connectivity and expand the possibilities of
@@ -30,16 +32,18 @@ export default function Footer() {
             </div>
 
             <div>
-              <h2 className="text-xl font-[800] text-eminence mt-5 md:mt-2">
+              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mt-5 md:mt-2 mb-2">
                 Get in touch
               </h2>
-              <h5 className="text-sm tracking-[1px]">help@gobuy.com</h5>
+              <h5 className="text-sm tracking-[1px] text-grey-scale">
+                help@gobuy.com
+              </h5>
             </div>
           </Flex>
         </Container>
         <Divider />
         <Container margin="mt-8">
-          <h2 className="text-center text-md">
+          <h2 className="text-center text-md text-grey-scale">
             &copy; {genUtils.getCurrentYear()} Gobuy. All rights reserved
           </h2>
           <Flex
