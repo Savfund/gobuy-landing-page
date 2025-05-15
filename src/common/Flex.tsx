@@ -1,6 +1,7 @@
 import { cn } from "@/helpers/classname";
 import { FlexProps } from "@/types/common/Flex";
 
+// TODO: Fix code not responding to custom styling
 export default function Flex(props: FlexProps) {
   const {
     justifyContent,
