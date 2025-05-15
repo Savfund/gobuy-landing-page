@@ -6,17 +6,20 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <Container
-      padding="p-20"
+      padding="md:p-20 p-5"
       background="secondary"
       margin="mt-10"
       classname="text-gray-700"
     >
       <div>
         <Container margin="mb-10">
-          <Flex alignItems="start" classname="justify-between">
+          <Flex
+            alignItems="start"
+            classname="md:justify-between flex-col md:flex-row"
+          >
             <div className="w-1/2">
-              <h2 className="text-3xl font-[800] text-eminence mb-2">Gobuy</h2>
-              <h3 className="text-[15px] tracking-[1px]">
+              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">Gobuy</h2>
+              <h3 className="text-[14px] md:text-sm tracking-[1px]">
                 Join the Gobuy community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to
                 enhance your mobile connectivity and expand the possibilities of
@@ -27,7 +30,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h2 className="text-xl font-[800] text-eminence mb-2">
+              <h2 className="text-xl font-[800] text-eminence mt-5 md:mt-2">
                 Get in touch
               </h2>
               <h5 className="text-sm tracking-[1px]">help@gobuy.com</h5>
