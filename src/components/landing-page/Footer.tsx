@@ -8,7 +8,7 @@ export default function Footer() {
     <Container
       padding="md:p-20 p-5"
       background="secondary"
-      margin="mt-10"
+      margin="mt-20 md:mt-10"
       classname="text-gray-700"
     >
       <div>
