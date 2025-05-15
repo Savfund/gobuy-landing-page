@@ -1,11 +1,11 @@
 import { Container, Flex, Logo } from "@/common";
 import Link from "next/link";
-import SocialButtons from "./SocialButtons";
+import SocialButtons from "../SocialButtons";
 
-export default function TopNavigation() {
+function DesktopNavigation() {
   return (
     <Container padding="px-5">
-      <Flex justifyContent="between" alignItems="center" classname="items-center">
+      <Flex classname="items-center justify-between">
         <Logo />
         <Flex gap="space-x-4">
           <Link href="#">About us</Link>
@@ -16,3 +16,5 @@ export default function TopNavigation() {
     </Container>
   );
 }
+
+export default DesktopNavigation;

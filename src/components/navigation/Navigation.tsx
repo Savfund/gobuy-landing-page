@@ -1,5 +1,6 @@
 import Footer from "../landing-page/Footer";
-import TopNavigation from "./TopNavigation";
+import DesktopNavigation from "./desktop";
+import MobileNavigation from "./mobile";
 
 export default function Navigation({
   children,
@@ -8,7 +9,12 @@ export default function Navigation({
 }) {
   return (
     <>
-      <TopNavigation />
+      <div className="hidden lg:block">
+        <DesktopNavigation />
+      </div>
+      <div className="block lg:hidden">
+        <MobileNavigation />
+      </div>
       {children}
       <Footer />
     </>

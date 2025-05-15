@@ -13,6 +13,7 @@ const SocialButtons = () => {
           login
         </Button>
         <Button
+          intent="outline"
           url={RoutePaths.REGISTER}
           className="text-center rounded-lg capitalize"
           asLink
