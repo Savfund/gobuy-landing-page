@@ -34,7 +34,7 @@ export const button = cva("button", {
 });
 
 export default function Button(props: ButtonProps) {
-  const { intent, size, disabled, className, ...others } = props;
+  const { intent, size, disabled, className } = props;
 
   const previewIcon = () => {
     return (
