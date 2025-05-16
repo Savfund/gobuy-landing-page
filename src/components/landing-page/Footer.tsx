@@ -8,16 +8,16 @@ export default function Footer() {
     <Container
       padding="md:p-20 p-5"
       background="secondary"
-      margin="mt-20 md:mt-10"
+      margin="mt-20 md:mt-10 mx-5 md:mx-0"
       classname="text-gray-700"
     >
       <div>
         <Container margin="mb-10">
           <Flex
             alignItems="start"
-            classname="md:space-x-10 flex-col md:flex-row"
+            classname="md:space-x-20 flex-col md:flex-row"
           >
-            <div className="md:w-1/2">
+            <div className="md:w-1/3">
               <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">
                 Gobuy
               </h2>
