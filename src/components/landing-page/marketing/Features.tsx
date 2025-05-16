@@ -9,7 +9,7 @@ export default function Features() {
         Why Choose Us
       </h1>
 
-      <Flex gap="flex-col md:flex-row md:space-x-10 space-y-10">
+      <Flex gap="flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0">
         {features.map((text, index) => {
           return (
             <Container
