@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <Container margin="my-20 mx-10 md:mx-20">
       <h1 className="text-eminence text-center text-2xl md:text-3xl font-bold mb-6 md:mb-10">
-        Why Choose Us
+        Our Features
       </h1>
 
       <Flex gap="flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0">
