@@ -1,4 +1,4 @@
-import { Button, Flex, Container } from "@/common";
+import { Button, Container, Flex } from "@/common";
 import { RoutePaths } from "@/constants";
 
 const SocialButtons = () => {

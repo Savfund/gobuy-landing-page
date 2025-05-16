@@ -65,7 +65,7 @@ export const textPlaceholder: React.CSSProperties = {
 
 export const list: React.CSSProperties = {
   listStyle: "none",
-  padding: "5px 25px",
+  padding: "5px 10px",
   margin: 0,
   position: "absolute",
   right: 0,
@@ -78,32 +78,32 @@ export const nav: React.CSSProperties = {
 };
 
 export const sidebarVariants = {
-    open: () => ({
-        clipPath: `circle(150% at calc(100% - 40px) 40px)`,
-        transition: {
-            type: "spring",
-            stiffness: 20,
-            restDelta: 2,
-        },
-    }),
-    closed: {
-        clipPath: "circle(25px at calc(100% - 40px) 40px)",
-        transition: {
-            delay: 0.2,
-            type: "spring",
-            stiffness: 400,
-            damping: 40,
-        },
+  open: () => ({
+    clipPath: `circle(150% at calc(100% - 40px) 40px)`,
+    transition: {
+      type: "spring",
+      stiffness: 20,
+      restDelta: 2,
     },
+  }),
+  closed: {
+    clipPath: "circle(25px at calc(100% - 40px) 40px)",
+    transition: {
+      delay: 0.2,
+      type: "spring",
+      stiffness: 400,
+      damping: 40,
+    },
+  },
 };
 
 export const fullScreenStyle: React.CSSProperties = {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    overflow: "hidden",
+  position: "fixed",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  overflow: "hidden",
 };
 
 export const itemVariants = {

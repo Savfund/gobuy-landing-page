@@ -3,7 +3,7 @@ import { RoutePaths } from "@/constants";
 
 export default function SignUpFiller() {
   return (
-    <Container padding="md:p-20" margin="mx-5 md:mx-10" outline="rounded-xl">
+    <Container padding="px-5 md:px-0 md:p-20" margin="mx-5 md:mx-10" outline="rounded-xl">
       <Container size="md:w-1/2" margin="mx-auto">
         <Flex alignItems="center" classname="flex-col">
           <h1 className="text-2xl md:text-3xl text-center mb-3 font-bold">
