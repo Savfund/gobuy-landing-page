@@ -9,15 +9,16 @@ export default function Features() {
         Why Choose Us
       </h1>
 
-      <Flex gap="flex-col md:flex-row md:space-x-10">
+      <Flex gap="flex-col md:flex-row md:space-x-10 space-y-10">
         {features.map((text, index) => {
           return (
             <Container
               key={index}
               padding="p-8 md:p-10"
               boxShadow="shadow-md mix-blend-color"
-              margin="mb-5 md:mb-0"
+              margin="md:mb-0"
               border="border-2 rounded-lg border-gray-100"
+              classname="bg-gray-50"
             >
               <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-2 text-center">
                 {text.heading}
