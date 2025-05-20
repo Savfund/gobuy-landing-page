@@ -48,10 +48,7 @@ export default function PrivacyPolicy() {
           <ul className="list-disc list-inside space-y-2">
             <li>
               To provide and maintain our services, including processing
-              apartment listings and facilitating communication between users.
-            </li>
-            <li>
-              To verify your identity and eligibility as an NYSC corps member.
+              cellular & mobile subscription services to our users.
             </li>
             <li>
               To improve our platform, analyze usage trends, and enhance user
