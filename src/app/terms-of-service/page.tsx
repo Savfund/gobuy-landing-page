@@ -2,145 +2,138 @@ import genUtils from "@/utils/gen";
 
 export default function TermsOfService() {
   return (
-    <div>
-      <div className="p-6 space-y-6">
-        {/* <LandingPageBanner
-          heading="Terms and Conditions"
-          subheading="Last updated: April 02, 2025"
-        /> */}
-        {/* <p className="text-gray-700 text-center text-[14px]">
-          Please read these terms and conditions carefully before using Our
-          Service.
-        </p> */}
-        <h2 className="text-2xl font-semibold">
-          Interpretation and Definitions
+    <div className="bg-gray-100 min-h-screen py-10 px-5">
+      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
+        <h1 className="text-3xl font-bold text-gray-800 mb-6">
+          Terms of Service
+        </h1>
+        <p className="text-gray-600 mb-4">
+          Welcome to GoBuy. These Terms of Service ("Terms") govern your use of
+          our website (gobuy.vercel.app) and related services (collectively,
+          "Services"). By accessing or using our Services, you agree to be bound
+          by these Terms. This agreement was last updated on May 20, 2025.
+        </p>
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          1. Acceptance of Terms
         </h2>
-        <h3 className="text-xl font-medium">Interpretation</h3>
-        <p className="text-gray-700">
-          The words of which the initial letter is capitalized have meanings
-          defined under the following conditions. The following definitions
-          shall have the same meaning regardless of whether they appear in
-          singular or in plural.
+        <p className="text-gray-600 mb-4">
+          By accessing or using our Services, you confirm that you have read,
+          understood, and agree to these Terms. If you do not agree, you must
+          not use our Services.
         </p>
-        <h3 className="text-xl font-medium">Definitions</h3>
-        <p className="text-gray-700">
-          For the purposes of these Terms and Conditions:
-        </p>
-        <ul className="list-disc list-inside space-y-2">
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          3. Account Registration
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 mb-4">
           <li>
-            <span className="text-gray-700">
-              <strong>Affiliate</strong> means an entity that controls, is
-              controlled by or is under common control with a party, where
-              &quot;control&quot; means ownership of 50% or more of the shares,
-              equity interest or other securities entitled to vote for election
-              of directors or other managing authority.
-            </span>
+            Provide accurate, current, and complete information during
+            registration.
           </li>
           <li>
-            <span className="text-gray-700">
-              <strong>Country</strong> refers to: Nigeria
-            </span>
+            Maintain the security of your account by not sharing your login
+            credentials.
           </li>
           <li>
-            <span className="text-gray-700">
-              <strong>Company</strong> (referred to as either &quot;the
-              Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-              in this Agreement) refers to CoinBuy.
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>Device</strong> means any device that can access the
-              Service such as a computer, a cellphone or a digital tablet.
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>Service</strong> refers to the Website.
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>Terms and Conditions</strong> (also referred as
-              &quot;Terms&quot;) mean these Terms and Conditions that form the
-              entire agreement between You and the Company regarding the use of
-              the Service. This Terms and Conditions agreement has been created
-              with the help of the{" "}
-              <a
-                href="https://www.privacypolicies.com/terms-conditions-generator/"
-                target="_blank"
-                className="text-blue-500 underline"
-              >
-                Terms and Conditions Generator
-              </a>
-              .
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>Third-party Social Media Service</strong> means any
-              services or content (including data, information, products or
-              services) provided by a third-party that may be displayed,
-              included or made available by the Service.
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>Website</strong> refers to CoinBuy, accessible from{" "}
-              <a
-                href="www.coinbuy.com"
-                rel="external nofollow noopener"
-                target="_blank"
-                className="text-blue-500 underline"
-              >
-                www.coinbuy.com
-              </a>
-            </span>
-          </li>
-          <li>
-            <span className="text-gray-700">
-              <strong>You</strong> means the individual accessing or using the
-              Service, or the company, or other legal entity on behalf of which
-              such individual is accessing or using the Service, as applicable.
-            </span>
+            Notify us immediately of any unauthorized use of your account at
+            codinkage@gmail.com
           </li>
         </ul>
-        <h2 className="text-2xl font-semibold">Acknowledgment</h2>
-        <p className="text-gray-700">
-          These are the Terms and Conditions governing the use of this Service
-          and the agreement that operates between You and the Company. These
-          Terms and Conditions set out the rights and obligations of all users
-          regarding the use of the Service.
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          4. Use of Services
+        </h2>
+        <p className="text-gray-600 mb-4">
+          You agree to use our Services only for lawful purposes and in
+          accordance with these Terms. Prohibited activities include, but are
+          not limited to:
         </p>
-        <p className="text-gray-700">
-          Your access to and use of the Service is conditioned on Your
-          acceptance of and compliance with these Terms and Conditions. These
-          Terms and Conditions apply to all visitors, users and others who
-          access or use the Service.
+        <ul className="list-disc list-inside text-gray-600 mb-4">
+          <li>Posting false, misleading, or fraudulent listings.</li>
+          <li>Using the Services to harass, harm, or defraud others.</li>
+          <li>
+            Attempting to interfere with the functionality or security of our
+            platform.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          5. Intellectual Property
+        </h2>
+        <p className="text-gray-600 mb-4">
+          All content on our platform, including text, images, logos, and
+          software, is owned by GoBuy or its licensors and protected by
+          intellectual property laws. You may not reproduce, distribute, or
+          create derivative works from this content without our prior written
+          permission, except as permitted for personal, non-commercial use.
         </p>
-        <p className="text-gray-700">
-          By accessing or using the Service You agree to be bound by these Terms
-          and Conditions. If You disagree with any part of these Terms and
-          Conditions then You may not access the Service.
+
+        <ul className="list-disc list-inside text-gray-600 mb-4">
+          <li>
+            Grant House A Kopa a non-exclusive, royalty-free, worldwide license
+            to use, display, and distribute your content in connection with our
+            Services.
+          </li>
+          <li>
+            Represent that you own or have the right to submit such content and
+            that it does not violate any laws or third-party rights.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          8. Termination
+        </h2>
+        <p className="text-gray-600 mb-4">
+          We reserve the right to suspend or terminate your access to our
+          Services at our sole discretion, without prior notice, if we believe
+          you have violated these Terms or engaged in conduct harmful to GoBuy
+          or other users. You may terminate your account at any time by
+          contacting us.
         </p>
-        {/* <p className="text-gray-700">
-          You represent that you are over the age of 14. The Company does not
-          permit those under 15 to use the Service.
-        </p> */}
-        <p className="text-gray-700">
-          Your access to and use of the Service is also conditioned on Your
-          acceptance of and compliance with the Privacy Policy of the Company.
-          Our Privacy Policy describes Our policies and procedures on the
-          collection, use and disclosure of Your personal information when You
-          use the Application or the Website and tells You about Your privacy
-          rights and how the law protects You. Please read Our Privacy Policy
-          carefully before using Our Service.
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          9. Limitation of Liability
+        </h2>
+        <p className="text-gray-600 mb-4">
+          Our Services are provided "as is" without warranties of any kind. To
+          the fullest extent permitted by law, GoBuy shall not be liable for any
+          indirect, incidental, or consequential damages arising from your use
+          of our Services, including but not limited to loss of profits or data.
         </p>
-        {/* Continue styling the rest of the content similarly */}
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          10. Governing Law
+        </h2>
+        <p className="text-gray-600 mb-4">
+          These Terms shall be governed by and construed in accordance with the
+          laws of Nigeria. Any disputes arising under these Terms shall be
+          subject to the exclusive jurisdiction of the courts in Kwara State,
+          Nigeria.
+        </p>
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          11. Modifications to Terms
+        </h2>
+        <p className="text-gray-600 mb-4">
+          We may update these Terms from time to time. We will notify you of
+          significant changes via email or a notice on our website. Your
+          continued use of our Services after such changes constitutes
+          acceptance of the revised Terms.
+        </p>
+
+        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
+          12. Contact Us
+        </h2>
+        <p className="text-gray-600">
+          If you have questions or concerns about these Terms, please contact us
+          at:
+        </p>
+        <ul className="list-disc list-inside text-gray-600 mt-4">
+          <li>Email: codinkage@gmail.com</li>
+          <li>Address: Lagos, Nigeria</li>
+        </ul>
       </div>
-      <p className="text-center text-sm p-5 text-eminence">
-        &copy; {genUtils.getCurrentYear()} Gobuy. All rights reserved
-      </p>
     </div>
   );
 }

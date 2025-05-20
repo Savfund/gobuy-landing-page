@@ -51,20 +51,8 @@ export default function Footer() {
             classname="text-[12px] underline justify-center mt-4"
             gap="space-x-3"
           >
-            <Link
-              href={RoutePaths.TERMS_OF_SERVICE}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Terms of Service
-            </Link>
-            <Link
-              href={RoutePaths.PRIVACY_POLICY}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Privacy Policy
-            </Link>
+            <Link href={RoutePaths.TERMS_OF_SERVICE}>Terms of Service</Link>
+            <Link href={RoutePaths.PRIVACY_POLICY}>Privacy Policy</Link>
           </Flex>
         </Container>
       </div>
