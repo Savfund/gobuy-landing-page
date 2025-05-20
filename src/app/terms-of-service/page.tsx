@@ -1,4 +1,3 @@
-import genUtils from "@/utils/gen";
 
 export default function TermsOfService() {
   return (
@@ -8,10 +7,12 @@ export default function TermsOfService() {
           Terms of Service
         </h1>
         <p className="text-gray-600 mb-4">
-          Welcome to CoinBuy. These Terms of Service ("Terms") govern your use of
-          our website (CoinBuy.vercel.app) and related services (collectively,
-          "Services"). By accessing or using our Services, you agree to be bound
-          by these Terms. This agreement was last updated on May 20, 2025.
+          Welcome to CoinBuy. These Terms of Service (&quot;Terms&quot;) govern
+          your use of our website{" "}
+          <a href="https://www.coinbuy.vercel.app">(coinBuy.vercel.app)</a> and
+          related services (collectively, &quot;Services&quot;). By accessing or
+          using our Services, you agree to be bound by these Terms. This
+          agreement was last updated on May 20, 2025.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
@@ -96,10 +97,11 @@ export default function TermsOfService() {
           9. Limitation of Liability
         </h2>
         <p className="text-gray-600 mb-4">
-          Our Services are provided "as is" without warranties of any kind. To
-          the fullest extent permitted by law, CoinBuy shall not be liable for any
-          indirect, incidental, or consequential damages arising from your use
-          of our Services, including but not limited to loss of profits or data.
+          Our Services are provided &quot;as is&quot; without warranties of any
+          kind. To the fullest extent permitted by law, CoinBuy shall not be
+          liable for any indirect, incidental, or consequential damages arising
+          from your use of our Services, including but not limited to loss of
+          profits or data.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">
