@@ -8,8 +8,8 @@ export default function TermsOfService() {
           Terms of Service
         </h1>
         <p className="text-gray-600 mb-4">
-          Welcome to GoBuy. These Terms of Service ("Terms") govern your use of
-          our website (gobuy.vercel.app) and related services (collectively,
+          Welcome to CoinBuy. These Terms of Service ("Terms") govern your use of
+          our website (CoinBuy.vercel.app) and related services (collectively,
           "Services"). By accessing or using our Services, you agree to be bound
           by these Terms. This agreement was last updated on May 20, 2025.
         </p>
@@ -63,7 +63,7 @@ export default function TermsOfService() {
         </h2>
         <p className="text-gray-600 mb-4">
           All content on our platform, including text, images, logos, and
-          software, is owned by GoBuy or its licensors and protected by
+          software, is owned by CoinBuy or its licensors and protected by
           intellectual property laws. You may not reproduce, distribute, or
           create derivative works from this content without our prior written
           permission, except as permitted for personal, non-commercial use.
@@ -87,7 +87,7 @@ export default function TermsOfService() {
         <p className="text-gray-600 mb-4">
           We reserve the right to suspend or terminate your access to our
           Services at our sole discretion, without prior notice, if we believe
-          you have violated these Terms or engaged in conduct harmful to GoBuy
+          you have violated these Terms or engaged in conduct harmful to CoinBuy
           or other users. You may terminate your account at any time by
           contacting us.
         </p>
@@ -97,7 +97,7 @@ export default function TermsOfService() {
         </h2>
         <p className="text-gray-600 mb-4">
           Our Services are provided "as is" without warranties of any kind. To
-          the fullest extent permitted by law, GoBuy shall not be liable for any
+          the fullest extent permitted by law, CoinBuy shall not be liable for any
           indirect, incidental, or consequential damages arising from your use
           of our Services, including but not limited to loss of profits or data.
         </p>

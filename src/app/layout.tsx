@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gobuy platform",
+  title: "CoinBuy platform",
   description: "Exchange your PI coin for daily needs & commodities",
 };
 

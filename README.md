@@ -1,3 +1,3 @@
 ## Getting Started
 
-- GoBuy Landing page built with TypeScript
+- CoinBuy Landing page built with TypeScript

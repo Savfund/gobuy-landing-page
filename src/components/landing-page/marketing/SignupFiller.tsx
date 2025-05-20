@@ -10,7 +10,7 @@ export default function SignUpFiller() {
             Maximize Your PI: Get Data & Airtime, Instantly.
           </h1>
           <p className="text-[14px] md:text-lg md:w-[90%] text-center md:mt-3 mb-5 font-light text-grey-scale">
-            Join gobuy and experience the convenience of converting your
+            Join coinbuy and experience the convenience of converting your
             cryptocurrency into valuable mobile subscriptions.
           </p>
           <Button

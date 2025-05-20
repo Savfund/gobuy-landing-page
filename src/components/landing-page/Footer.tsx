@@ -19,15 +19,15 @@ export default function Footer() {
           >
             <div className="md:w-1/3">
               <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">
-                Gobuy
+                CoinBuy
               </h2>
               <h3 className="text-[14px] md:text-sm tracking-[1px] text-grey-scale text-justify">
-                Join the Gobuy community and experience the future of
+                Join the CoinBuy community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to
                 enhance your mobile connectivity and expand the possibilities of
-                PI. Gobuy is more than just a platform; it&apos;s a gateway to
+                PI. CoinBuy is more than just a platform; it&apos;s a gateway to
                 seamless digital access, powered by your crypto. Discover the
-                convenience of Gobuy today.
+                convenience of CoinBuy today.
               </h3>
             </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
                 Get in touch
               </h2>
               <h5 className="text-sm tracking-[1px] text-grey-scale">
-                help@gobuy.com
+                codinkage@gmail.com
               </h5>
             </div>
           </Flex>
@@ -44,7 +44,7 @@ export default function Footer() {
         <Divider />
         <Container margin="mt-8">
           <h2 className="text-center text-md text-grey-scale">
-            &copy; {genUtils.getCurrentYear()} Gobuy. All rights reserved
+            &copy; {genUtils.getCurrentYear()} CoinBuy. All rights reserved
           </h2>
           <Flex
             alignItems="center"
