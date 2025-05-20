@@ -11,10 +11,10 @@ export default function PrivacyPolicy() {
             Policy explains how we collect, use, disclose, and safeguard your
             personal information when you use our website{" "}
             <a
-              href="https://www.CoinBuy.vercel.app"
+              href="https://www.coinBuy.vercel.app"
               className="text-blue-500 underline hover:text-blue-700"
             >
-              (CoinBuy.vercel.app)
+              (coinBuy.vercel.app)
             </a>{" "}
             and services. This policy was last updated on May 20, 2025.
           </p>
