@@ -15,7 +15,7 @@ export const button = cva("button", {
         "bg-white text-[#3b83ac] hover:shadow-sm hover:shadow-eminence",
       ],
       outline: [
-        "bg-transparent border border-[#572978] text-[#572978] hover:bg-[#572978] hover:text-white transition",
+        "bg-transparent border border-[#3b83ac] text-[#3b83ac] hover:bg-[#3b83ac] hover:text-white transition",
       ],
       danger: ["bg-red-500 text-white hover:shadow-sm hover:shadow-eminence"],
     },
