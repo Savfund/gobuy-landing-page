@@ -6,8 +6,12 @@ export default function LandingPage() {
   return (
     <div>
       <Introduction />
-      <Features />
-      <SignUpFiller />
+      <div id="features">
+        <Features />
+      </div>
+      <div id="about">
+        <SignUpFiller />
+      </div>
     </div>
   );
 }

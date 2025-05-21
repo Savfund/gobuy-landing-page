@@ -4,7 +4,7 @@ import { marketing } from "@/data/marketing";
 export default function Features() {
   const { features } = marketing;
   return (
-    <Container margin="my-20 mx-10 md:mx-20">
+    <Container margin="my-20 mx-10 md:mx-20" classname="scroll-smooth">
       <h1 className="text-eminence text-center text-2xl md:text-3xl font-bold mb-6 md:mb-10">
         Our Features
       </h1>

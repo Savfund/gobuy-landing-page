@@ -8,8 +8,8 @@ function DesktopNavigation() {
       <Flex classname="items-center justify-between">
         <Logo />
         <Flex gap="space-x-4">
-          <Link href="#">About us</Link>
-          <Link href="#">Features</Link>
+          <Link href="#about">About us</Link>
+          <Link href="#features">Features</Link>
         </Flex>
         <SocialButtons />
       </Flex>
