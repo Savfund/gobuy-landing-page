@@ -6,19 +6,14 @@ import { itemVariants, listItem } from "../styles/mobile";
 
 const MenuItem = () => {
   return (
-    <motion.li
-      style={listItem}
-      variants={itemVariants}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
-    >
+    <motion.li style={listItem} variants={itemVariants}>
       <Flex direction="col" gap="space-y-3">
         <Container classname="mb-5 text-lg">
           <Link href="#">
-            <h1 className="mb-2">About us</h1>
+            <h1 className="mb-2 text-xl">About us</h1>
           </Link>
           <Link href="#">
-            <h1>Features</h1>
+            <h1 className="text-xl">Features</h1>
           </Link>
         </Container>
         <SocialButtons />
