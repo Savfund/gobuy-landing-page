@@ -9,7 +9,10 @@ export default function Features() {
         Our Features
       </h1>
 
-      <Flex gap="flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0">
+      <Flex
+        gap="flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0"
+        classname="md:items-center md:justify-center"
+      >
         {features.map((text, index) => {
           return (
             <Container
@@ -19,6 +22,7 @@ export default function Features() {
               margin="md:mb-0"
               border="border-2 rounded-lg border-gray-100"
               classname="bg-gray-50"
+              size="md:w-2/6"
             >
               <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-2 text-center">
                 {text.heading}

@@ -9,10 +9,10 @@ export const button = cva("button", {
     intent: {
       primary: ["bg-black text-white hover:shadow-sm hover:shadow-black"],
       secondary: [
-        "bg-[#572978] text-white hover:shadow-sm hover:shadow-eminence",
+        "bg-[#3b83ac] text-white hover:shadow-sm hover:shadow-eminence",
       ],
       tertiary: [
-        "bg-white text-[#572978] hover:shadow-sm hover:shadow-eminence",
+        "bg-white text-[#3b83ac] hover:shadow-sm hover:shadow-eminence",
       ],
       outline: [
         "bg-transparent border border-[#572978] text-[#572978] hover:bg-[#572978] hover:text-white transition",
