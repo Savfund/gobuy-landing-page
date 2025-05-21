@@ -1,7 +1,8 @@
+import { ToggleInterface } from "../Navigation";
 import { toggleContainer } from "../styles/mobile";
 import Path from "./Path";
 
-const MenuToggle = ({ toggle }: { toggle: () => void }) => (
+const MenuToggle = ({ toggle }: ToggleInterface) => (
   <button style={toggleContainer} onClick={toggle}>
     <svg width="23" height="23" viewBox="0 0 23 23">
       <Path

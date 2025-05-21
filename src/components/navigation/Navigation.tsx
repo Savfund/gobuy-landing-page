@@ -3,6 +3,10 @@ import Footer from "../landing-page/Footer";
 import DesktopNavigation from "./desktop";
 import MobileNavigation from "./mobile";
 
+export type ToggleInterface = {
+  toggle: () => void;
+};
+
 export default function Navigation({
   children,
 }: {
