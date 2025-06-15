@@ -1,8 +1,8 @@
 import { ButtonProps } from "@/types/common/Button";
 import { cva } from "class-variance-authority";
 import Link from "next/link";
-import Flex from "./Flex";
 import { UrlObject } from "url";
+import Flex from "./Flex";
 
 export const button = cva("button", {
   variants: {
