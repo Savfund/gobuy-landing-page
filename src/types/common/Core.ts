@@ -9,10 +9,6 @@ export type Sizing = {
   max?: string;
 };
 
-export type Background = {
-  background?: "primary" | "secondary" | "tertiary";
-};
-
 export type Border = {
   border?: string;
   outline?: string;

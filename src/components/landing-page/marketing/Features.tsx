@@ -18,16 +18,15 @@ export default function Features() {
             <Container
               key={index}
               padding="p-8 md:p-10"
-              boxShadow="shadow-md mix-blend-color"
               margin="md:mb-0"
               border="border-2 rounded-lg border-gray-100"
-              classname="bg-gray-50"
               size="md:w-2/6"
+              background="bg-eminence"
             >
-              <h2 className="font-bold text-xl md:text-2xl mb-4 md:mb-2 text-center">
+              <h2 className="font-bold text-lg md:text-xl mb-4 md:mb-2 text-center text-white">
                 {text.heading}
               </h2>
-              <p className="text-justify text-sm text-grey-scale">
+              <p className="text-center text-[14px] text-gray-300">
                 {text.note}
               </p>
             </Container>
