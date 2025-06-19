@@ -43,12 +43,12 @@ export default function Footer() {
         </Container>
         <Divider />
         <Container margin="mt-8">
-          <h2 className="text-center text-md text-grey-scale">
+          <h2 className="text-center text-md">
             &copy; {genUtils.getCurrentYear()} CoinBuy. All rights reserved
           </h2>
           <Flex
             alignItems="center"
-            classname="text-[12px] underline justify-center mt-2"
+            classname="text-[12px] underline justify-center mt-2 text-grey-scale"
             gap="space-x-3"
           >
             {[
