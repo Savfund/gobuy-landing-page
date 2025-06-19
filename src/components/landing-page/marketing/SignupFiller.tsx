@@ -7,7 +7,7 @@ export default function SignUpFiller() {
       <Container size="md:w-1/2" margin="mx-auto">
         <Flex alignItems="center" classname="flex-col">
           <h1 className="text-2xl md:text-3xl text-center mb-3 font-bold">
-            Maximize Your PI: Get Data & Airtime, Instantly.
+            Maximize Your Cryptocurrency: Get Data & Airtime, Instantly.
           </h1>
           <p className="text-[14px] md:text-lg md:w-[90%] text-center md:mt-3 mb-5 font-light text-grey-scale">
             Join coinbuy and experience the convenience of converting your
