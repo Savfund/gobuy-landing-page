@@ -24,10 +24,10 @@ export default function Footer() {
               <h3 className="text-[14px] md:text-sm tracking-[1px] text-grey-scale text-justify">
                 Join the CoinBuy community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to
-                enhance your mobile connectivity and expand the possibilities of
-                PI. CoinBuy is more than just a platform; it&apos;s a gateway to
-                seamless digital access, powered by your crypto. Discover the
-                convenience of CoinBuy today.
+                enhance your mobile connectivity. CoinBuy is more than just a
+                platform; it&apos;s a gateway to seamless digital access,
+                powered by your crypto. Discover the convenience of CoinBuy
+                today.
               </h3>
             </div>
 
