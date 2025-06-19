@@ -19,7 +19,7 @@ export default function Features() {
               key={index}
               padding="p-8 md:p-10"
               margin="md:mb-0"
-              border="border-2 rounded-lg border-gray-100"
+              border="border-2 rounded-xl border-eminence"
               size="md:w-2/6"
               background="bg-eminence"
             >
