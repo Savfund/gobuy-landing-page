@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mt-5 md:mt-2 mb-2">
+              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mt-5 md:mt-0 mb-1">
                 Get in touch
               </h2>
               <h5 className="text-sm tracking-[1px] text-grey-scale">
@@ -48,11 +48,17 @@ export default function Footer() {
           </h2>
           <Flex
             alignItems="center"
-            classname="text-[12px] underline justify-center mt-4"
+            classname="text-[12px] underline justify-center mt-2"
             gap="space-x-3"
           >
-            <Link href={RoutePaths.TERMS_OF_SERVICE}>Terms of Service</Link>
-            <Link href={RoutePaths.PRIVACY_POLICY}>Privacy Policy</Link>
+            {[
+              { name: "Terms of Service", url: RoutePaths.TERMS_OF_SERVICE },
+              { name: "Privacy Policy", url: RoutePaths.PRIVACY_POLICY },
+            ].map(({ name, url }) => (
+              <Link key={name} href={url}>
+                {name}
+              </Link>
+            ))}
           </Flex>
         </Container>
       </div>
