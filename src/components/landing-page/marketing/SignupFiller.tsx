@@ -20,7 +20,7 @@ export default function SignUpFiller() {
             <h1 className="text-2xl md:text-3xl text-center mb-3 font-[900] text-eminence">
               Maximize Your Cryptocurrency: Get Data & Airtime, Instantly.
             </h1>
-            <p className="text-[14px] md:text-lg md:w-[90%] text-center md:mt-3 mb-5 font-light text-grey-scale">
+            <p className="text-[14px] md:text-lg md:w-[90%] text-center md:mt-3 mb-5 font-light text-gray-200">
               Join coinbuy and experience the convenience of converting your
               cryptocurrency into valuable mobile subscriptions.
             </p>
