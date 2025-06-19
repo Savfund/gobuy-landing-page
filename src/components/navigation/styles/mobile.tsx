@@ -13,7 +13,7 @@ export const container: React.CSSProperties = {
 };
 
 export const background: React.CSSProperties = {
-  backgroundColor: "#f5f5f5",
+  backgroundColor: "#FFFFFF",
   position: "absolute",
   top: 0,
   right: 0,
@@ -23,11 +23,8 @@ export const background: React.CSSProperties = {
 };
 
 export const listItem: React.CSSProperties = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "flex-start",
   padding: 0,
-  margin: 0,
+  margin: "0 10px",
   listStyle: "none",
   marginBottom: 20,
   cursor: "pointer",
@@ -63,7 +60,7 @@ export const textPlaceholder: React.CSSProperties = {
   flex: 1,
 };
 
-export const list: React.CSSProperties = {
+export const listStyles: React.CSSProperties = {
   listStyle: "none",
   padding: "5px 10px",
   margin: 0,

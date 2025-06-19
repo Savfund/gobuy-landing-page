@@ -13,12 +13,12 @@ export default function Introduction() {
       >
         <Container size="md:w-2/5">
           <div>
-            <h1 className="text-4xl md:text-[45px] text-eminence">
-              The Easy Way To Use Your PI.
+            <h1 className="text-4xl md:text-[45px] text-eminence leading-[3rem]">
+              The Easy Way To Use Your Cryptocurrency.
             </h1>
             <p className="text-lg md:text-xl mt-2 md:mt-4 text-justify text-grey-scale">
-              Don&apos;t let your crypto sit idle. Gobuy transforms it into the
-              services you need.
+              CoinBuy empowers you to convert your digital currency into the
+              mobile services you depend on.
             </p>
             <Button
               className="w-full md:w-2/4 text-center mt-8 md:mt-4 py-3 rounded-lg"
