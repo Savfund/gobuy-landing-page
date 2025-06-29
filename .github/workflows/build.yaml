@@ -1,0 +1,27 @@
+name: Deploy CoinBuy landing page to Coolify
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Setup Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21
+          cache: "yarn"
+
+      - name: Run build
+        run: yarn build
+
+      - name: Run lint
+        run: yarn lint
+
+#  COINBUY COOLIFY DEPLOYMENT TOKEN 
+# 1|GMyROsjK5E0GS99jpK5v9ewk30OYPltu2P4PQOmge18350a7
