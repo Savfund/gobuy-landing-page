@@ -13,3 +13,5 @@ export const RoutePaths = {
     return `${this.APP_URI}/register`;
   },
 };
+
+
