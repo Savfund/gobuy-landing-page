@@ -16,15 +16,15 @@ const SocialButtons = () => {
   return (
     <Container>
       <Flex
-        gap="md:space-x-2 space-y-2 md:space-y-0"
-        classname="flex-col md:flex-row"
+        gap="space-y-4 md:space-y-0 md:space-x-4"
+        classname="flex-col md:flex-row items-center w-full"
       >
         {socialLinks.map(({ name, url }) => (
           <Button
             key={name}
             url={url}
             intent={name === "login" ? "outline" : "secondary"}
-            className="text-center rounded-lg capitalize"
+            className="text-center rounded-md capitalize px-4 py-2 w-full md:w-auto"
             asLink
           >
             {name}

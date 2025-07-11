@@ -6,56 +6,60 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <Container
-      padding="md:p-20 p-5"
+      padding="p-5 md:p-20"
       background="secondary"
-      margin="mt-20 md:mt-10 mx-5 md:mx-0"
+      margin="mt-10 md:mt-20 mx-5 md:mx-0"
       classname="text-gray-700"
     >
       <div>
         <Container margin="mb-10">
           <Flex
             alignItems="start"
-            classname="md:space-x-20 flex-col md:flex-row"
+            classname="flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-20"
           >
-            <div className="md:w-1/3">
-              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mb-2">
-                CoinBuy
+            <div className="md:w-1/3 animate-fade-in">
+              <h2 className="text-3xl font-extrabold text-eminence mb-2">
+                Subnownow
               </h2>
-              <h3 className="text-[14px] md:text-sm tracking-[1px] text-grey-scale text-justify">
-                Join the CoinBuy community and experience the future of
+              <p className="text-sm md:text-base tracking-wide text-grey-scale text-justify">
+                Join the Subnownow community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to
-                enhance your mobile connectivity. CoinBuy is more than just a
+                enhance your mobile connectivity. Subnownow is more than just a
                 platform; it&apos;s a gateway to seamless digital access,
-                powered by your crypto. Discover the convenience of CoinBuy
+                powered by your crypto. Discover the convenience of Subnownow
                 today.
-              </h3>
+              </p>
             </div>
 
-            <div>
-              <h2 className="text-2xl md:text-3xl font-[800] text-eminence mt-5 md:mt-0 mb-1">
+            <div className="animate-fade-in">
+              <h2 className="text-3xl font-extrabold text-eminence mb-2">
                 Get in touch
               </h2>
-              <h5 className="text-sm tracking-[1px] text-grey-scale">
+              <p className="text-sm tracking-wide text-grey-scale">
                 codinkage@gmail.com
-              </h5>
+              </p>
             </div>
           </Flex>
         </Container>
         <Divider />
         <Container margin="mt-8">
-          <h2 className="text-center text-md">
-            &copy; {genUtils.getCurrentYear()} CoinBuy. All rights reserved
-          </h2>
+          <p className="text-center text-sm">
+            &copy; {genUtils.getCurrentYear()} Subnownow. All rights reserved
+          </p>
           <Flex
             alignItems="center"
-            classname="text-[12px] underline justify-center mt-2 text-grey-scale"
+            classname="justify-center mt-2 text-sm underline text-grey-scale"
             gap="space-x-3"
           >
             {[
               { name: "Terms of Service", url: RoutePaths.TERMS_OF_SERVICE },
               { name: "Privacy Policy", url: RoutePaths.PRIVACY_POLICY },
             ].map(({ name, url }) => (
-              <Link key={name} href={url}>
+              <Link
+                key={name}
+                href={url}
+                className="hover:text-eminence transition-colors duration-300"
+              >
                 {name}
               </Link>
             ))}

@@ -14,7 +14,7 @@ export const container: React.CSSProperties = {
 
 export const background: React.CSSProperties = {
   backgroundColor: "#FFFFFF",
-  position: "absolute",
+  position: "fixed",
   top: 0,
   right: 0,
   bottom: 0,

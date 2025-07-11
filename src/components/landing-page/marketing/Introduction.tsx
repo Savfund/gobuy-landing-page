@@ -5,23 +5,23 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <Container padding="px-10" margin="mt-2 md:mt-14">
+    <Container padding="px-6 md:px-12" margin="mt-4 md:mt-16">
       <Flex
-        alignItems="start"
+        alignItems="center"
         justifyContent="between"
-        classname="flex-col-reverse md:flex-row"
+        classname="flex-col md:flex-row gap-8"
       >
-        <Container size="md:w-2/5">
-          <div>
-            <h1 className="text-4xl md:text-[45px] text-eminence leading-[3rem]">
-              The Easy Way To Use Your Cryptocurrency.
+        <Container size="md:w-1/2">
+          <div className="animate-fade-in">
+            <h1 className="text-3xl md:text-5xl font-bold text-eminence leading-tight">
+              Seamlessly Use Your Digital Currency.
             </h1>
-            <p className="text-lg md:text-xl mt-2 md:mt-4 text-justify text-grey-scale">
-              CoinBuy empowers you to convert your digital currency into the
-              mobile services you depend on.
+            <p className="text-base md:text-lg mt-4 text-grey-scale leading-relaxed">
+              Subnownow enables you to effortlessly transform your digital
+              currency into essential mobile services, making life simpler.
             </p>
             <Button
-              className="w-full md:w-2/4 text-center mt-8 md:mt-4 py-3 rounded-lg"
+              className="w-full md:w-1/3 text-center mt-6 py-3 rounded-md shadow-lg"
               url={RoutePaths.REGISTER}
               asLink
             >
@@ -32,12 +32,13 @@ export default function Introduction() {
         <Image
           src={PiCoin}
           alt="pi-brand-logo"
-          height={400}
-          width={400}
+          height={350}
+          width={350}
           style={{
-            objectFit: "cover",
+            objectFit: "contain",
             objectPosition: "center",
           }}
+          className="rounded-lg shadow-md animate-fade-in"
         />
       </Flex>
     </Container>

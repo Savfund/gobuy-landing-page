@@ -8,13 +8,13 @@ import { itemVariants, listItem } from "../styles/mobile";
 const MenuItem = ({ toggle }: ToggleInterface) => {
   return (
     <motion.li style={listItem} variants={itemVariants}>
-      <Flex direction="col" gap="space-y-3">
-        <Container classname="mb-5 text-lg">
+      <Flex direction="col" gap="4">
+        <Container classname="mb-6">
           <Link href="#about" onClick={toggle}>
-            <h1 className="mb-2 text-xl">About us</h1>
+            <h1 className="text-lg font-semibold mb-3">About Us</h1>
           </Link>
           <Link href="#features" onClick={toggle}>
-            <h1 className="text-xl">Features</h1>
+            <h1 className="text-lg font-semibold">Features</h1>
           </Link>
         </Container>
         <SocialButtons />
