@@ -34,7 +34,7 @@ export default function Footer() {
                 Get in touch
               </h2>
               <p className="text-sm tracking-wide text-grey-scale">
-                codinkage@gmail.com
+                support@subnownow.com
               </p>
             </div>
           </Flex>
