@@ -1,4 +1,4 @@
-import { Container, Divider, Flex } from "@/common";
+import { Container, Divider, Flex, Logo } from "@/common";
 import { RoutePaths } from "@/constants";
 import genUtils from "@/utils/gen";
 import Link from "next/link";
@@ -18,9 +18,7 @@ export default function Footer() {
             classname="flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-20"
           >
             <div className="md:w-1/3 animate-fade-in">
-              <h2 className="text-3xl font-extrabold text-eminence mb-2">
-                Subnownow
-              </h2>
+              <Logo />
               <p className="text-sm md:text-base tracking-wide text-grey-scale text-justify">
                 Join the Subnownow community and experience the future of
                 cryptocurrency utility. We&apos;re constantly innovating to

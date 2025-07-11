@@ -1,4 +1,3 @@
-import logo from "@/assets/logo_black.png";
 import { RoutePaths } from "@/constants";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
@@ -9,13 +8,14 @@ type LogoProps = {
 
 export default function Logo(props: LogoProps) {
   return (
-    <div>
-      <Link href={RoutePaths.DEFAULT}>
+    <div className="flex items-center p-3 md:p-0">
+      <Link href={RoutePaths.DEFAULT} aria-label="Go to homepage">
         <Image
-          src={props.url || logo}
+          src={props.url || "/brand-logo.png"}
           alt="Best store to exchange your PI coin"
           height={100}
           width={100}
+          className="object-contain"
         />
       </Link>
     </div>
