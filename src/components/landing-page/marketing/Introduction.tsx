@@ -1,4 +1,3 @@
-import PiCoin from "@/assets/pi-coin.jpg";
 import { Button, Container, Flex } from "@/common";
 import { RoutePaths } from "@/constants";
 import Image from "next/image";
