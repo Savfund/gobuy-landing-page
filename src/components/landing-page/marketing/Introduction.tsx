@@ -11,7 +11,7 @@ export default function Introduction() {
         justifyContent="between"
         classname="flex-col md:flex-row gap-8"
       >
-        <Container size="md:w-1/2">
+        <Container size="w-5/6 md:w-1/2 text-center md:text-left">
           <div className="animate-fade-in">
             <h1 className="text-3xl md:text-5xl font-bold text-eminence leading-tight">
               Seamlessly Use Your Digital Currency.
@@ -30,15 +30,14 @@ export default function Introduction() {
           </div>
         </Container>
         <Image
-          src={PiCoin}
+          src={`https://res.cloudinary.com/dwuad4n3s/image/upload/v1752306364/Subnownow_landing_page_illustration_u4sjjw.png`}
           alt="pi-brand-logo"
-          height={350}
-          width={350}
+          height={600}
+          width={600}
           style={{
-            objectFit: "contain",
+            objectFit: "cover",
             objectPosition: "center",
           }}
-          className="rounded-lg shadow-md animate-fade-in"
         />
       </Flex>
     </Container>
