@@ -7,16 +7,16 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="mb-6 text-lg">
-            At CoinBuy, we are committed to protecting your privacy. This Privacy
-            Policy explains how we collect, use, disclose, and safeguard your
-            personal information when you use our website{" "}
+            At Subnownow, we are committed to protecting your privacy. This
+            Privacy Policy explains how we collect, use, disclose, and safeguard
+            your personal information when you use our website{" "}
             <a
-              href="https://www.coinBuy.vercel.app"
+              href="https://www.subnownow.com"
               className="text-blue-500 underline hover:text-blue-700"
             >
-              (coinBuy.vercel.app)
+              (Subnownow.com)
             </a>{" "}
-            and services. This policy was last updated on May 20, 2025.
+            and services. This policy was last updated on July 12, 2025.
           </p>
 
           <section className="mb-8">
@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
               <li>
                 <strong>Legal Requirements:</strong> When required by law,
                 regulation, or legal process, or to protect the rights,
-                property, or safety of CoinBuy, our users, or the public.
+                property, or safety of Subnownow, our users, or the public.
               </li>
               <li>
                 <strong>Business Transfers:</strong> In connection with a
@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
               Privacy Policy or your personal information, please contact us at:
             </p>
             <ul className="list-disc list-inside space-y-2">
-              <li>Email: codinkage@gmail.com</li>
+              <li>Email: support@subnownow.com</li>
               <li>Address: Lagos, Nigeria</li>
             </ul>
           </section>
